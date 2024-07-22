@@ -43,6 +43,7 @@ function App() {
           <Route path="/mngleave" element={<ManageLeave/>} />
           <Route path="/UpdateMng" element={<UpdateMng/>}/>
           <Route path="*" element={<Error/>}/>
+          {/* hi my name  */}
         </Routes>
       </Layout>
     </BrowserRouter>
