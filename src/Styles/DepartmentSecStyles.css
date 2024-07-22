@@ -1,0 +1,178 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main-div h1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-sec-dep {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.content-wrapper {
+  z-index: 1;
+}
+
+.main-sec-dep table {
+  margin-top: 80px;
+  width: 1000px;
+  border: 2px solid rgb(120, 130, 179);
+  box-shadow: 0px 0px 14px 10px rgba(0, 0, 0, 0.68);
+  table-layout: auto;
+  cursor: pointer;
+  text-align: center;
+}
+
+.table-row {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(8, 7, 4);
+  color: rgb(255, 251, 251);
+}
+
+.name-admin:hover {
+  color: rgb(100, 73, 222);
+}
+
+button {
+  background-color: rgb(70, 66, 180);
+  margin-right: 115px;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.add-dept:hover {
+  box-shadow: -2px 3px 21px 4px rgba(66, 127, 223, 0.75);
+  transition: 0.2s;
+  font-size: 17px;
+}
+
+.buttonAdd {
+  position: relative;
+  top: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-wrapper {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(189, 189, 189, 0.7);
+}
+
+.form-container {
+  width: 400px;
+  position: absolute;
+  left: 700px;
+  z-index: 2;
+  top: 200px;
+  background: rgb(247, 243, 247);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: -2px 3px 21px 4px rgba(66, 127, 223, 0.75);
+  backdrop-filter: blur(9px);
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container .close-btn {
+  width: 40px;
+  position: relative;
+  left: 230px;
+  bottom: 20px;
+}
+
+.form-container input {
+  width: 250px;
+  border: none;
+}
+
+.form-dept-submit {
+  margin-top: 20px;
+  height: 35px;
+  width: 120px;
+  position: relative;
+  left: 60px;
+}
+
+.form-container form input:scope {
+  border: none;
+}
+
+.Manager-card {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(189, 189, 189, 0.7);
+}
+
+.main-card {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+
+  left: 700px;
+  z-index: 2;
+  top: 200px;
+  background: rgb(247, 243, 247);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: -2px 3px 21px 4px rgba(66, 127, 223, 0.75);
+  backdrop-filter: blur(9px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-card h5 {
+  width: 150px;
+}
+
+.main-card .btn-div {
+  display: flex;
+  justify-content: space-around;
+}
+.main-card .btn-div button {
+  width: 100px;
+}
+
+.main-card .btn-div button:hover{
+  box-shadow: -2px 3px 21px 4px rgba(66, 127, 223, 0.75);
+  transition: 0.2s;
+  font-size: 17px;
+}
+
+.new-mng-inpt{
+  height: 30px;
+  width: 200px;
+  position: relative;
+  right: 270px;
+  bottom: 40px;
+}

@@ -1,0 +1,115 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #sidebar {
+    background-color: #2A2D33;
+    height: 100vh;
+    width: 210px;
+    float: left;
+  }
+  
+  #sidebar-nav {
+    height: calc(100% - 95px);
+    padding: 0;
+    overflow-y: auto;
+  }
+  
+  #sidebar-nav h2 {
+    background-color: #279BE4;
+    color: #60636B;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #sidebar-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #sidebar-nav ul li {
+    padding: 10px;
+    border-bottom: 1px solid #4D4C4C;
+  }
+  
+  #sidebar-nav ul li a {
+    color: #BDC3C7;
+    text-decoration: none;
+    display: block;
+  }
+  
+  #sidebar-nav ul li:hover {
+    background-color: #0274BD;
+  }
+  
+  #content {
+    margin-left: 210px;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .content-header {
+    margin-top: 0;
+    color: #37474F;
+  }
+  
+  .sample-widget {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .widget-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .widget-header h2 {
+    color: #37474F;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .widget-header i {
+    font-size: 1.2em;
+    color: #C2CAD5;
+    cursor: pointer;
+  }
+  
+  .widget-content {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .widget-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+  }
+  
+  .highlight {
+    background-color: #F1C40F;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+  
+  .up {
+    color: #2ECC71;
+  }
+  
+  .down {
+    color: #E74C3C;
+  }

@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .main-sec-emp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  .content-wrapper {
+    z-index: 1;
+  }
+  
+  .main-sec-emp table {
+    margin-top: 80px;
+    width: 1250px;
+    border: 2px solid rgb(2, 18, 112);
+    box-shadow: 0px 0px 14px 10px rgba(40, 2, 116, 0.68);
+    table-layout: auto;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 22px;
+  }
+  .main-sec-emp table thead tr th{
+      background-color: rgb(17, 14, 85);
+      color: aliceblue;
+  }
+  
+  .table-row-emp{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(8, 7, 4);
+    color: rgb(255, 251, 251);
+  }
+  .modal-wrapper {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(189, 189, 189, 0.7);
+  }
+  

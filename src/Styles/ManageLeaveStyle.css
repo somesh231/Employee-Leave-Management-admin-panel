@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+.main-sec{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.montserrat-h1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .content-wrapper {
+    z-index: 1;
+  }
+  
+  .main-sec .pending-sec table {
+    margin-top: 80px;
+    width: 1200px;
+    border: 2px solid rgb(92, 1, 91);
+    box-shadow: 0px 0px 14px 10px rgba(228, 24, 239, 0.68);
+    table-layout: auto;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 22px;
+    margin-left: 40px;
+  }
+  .main-sec .pending-sec table thead tr th{
+      background-color: rgb(79, 1, 71);
+      color: rgb(247, 197, 168);
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  }
+
+  .main-sec .pending-sec button {
+    position: relative;
+    left: 60px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(2, 62, 62);
+  }
+
+  .main-sec .pending-sec button:hover{
+    background-color: rgb(2, 62, 62);
+    box-shadow:2px 2px 26px 4px rgba(0,0,0,0.75);
+    transition: 0.4s;
+  }
+  
+  .pending-sec .table-row{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(8, 7, 4);
+    color: rgb(255, 251, 251);
+  }
+  .modal-wrapper {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(189, 189, 189, 0.7);
+  }
+
+  .main-sec .approved-sec table {
+    margin-top: 80px;
+    width: 1200px;
+    border: 2px solid rgb(4, 110, 40);
+    box-shadow: 0px 0px 14px 10px rgba(5, 199, 15, 0.68);
+    table-layout: auto;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 22px;
+    margin-left: 40px;
+  }
+  .main-sec .approved-sec table thead tr th{
+      background-color: rgb(2, 118, 39);
+      color: rgb(16, 7, 1);
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  }
+  
+  .approved-sec .table-row{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(8, 7, 4);
+    color: rgb(255, 251, 251);
+  }
+
+  .main-sec .declined-sec table {
+    margin-top: 80px;
+    width: 1200px;
+    border: 2px solid rgb(235, 86, 6);
+    box-shadow: 0px 0px 14px 10px rgba(245, 37, 5, 0.68);
+    table-layout: auto;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 22px;
+    margin-left: 40px;
+  }
+  .main-sec .declined-sec table thead tr th{
+      background-color: rgb(233, 6, 6);
+      color: rgb(56, 5, 10);
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  }
+  
+  .declined-sec .table-row{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(8, 7, 4);
+    color: rgb(255, 251, 251);
+  }
+
+  
+.approve-card {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(189, 189, 189, 0.7);
+}
+
+.main-card {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+
+  left: 700px;
+  z-index: 2;
+  top: 200px;
+  background: rgb(247, 243, 247);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: -2px 3px 21px 4px rgba(66, 127, 223, 0.75);
+  backdrop-filter: blur(9px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-card h5 {
+  width: 150px;
+}
+
+.main-card .btn-div{
+  display: flex;
+  position: relative;
+  right: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.main-card .btn-div button {
+  margin: 20px;
+  height: 40px;
+  width: 150px;
+}
+
+.main-card .btn-div .approve-btn{
+  background-color: rgb(1, 61, 32);
+}
+
+.main-card .btn-div .approve-btn:hover{
+  background-color: rgb(5, 147, 5);
+  box-shadow: -2px 3px 21px 4px rgba(2, 255, 133, 0.75);
+  transition: 0.2s;
+  font-size: 17px;
+}
+
+.main-card .btn-div .decline-btn{
+  background-color: rgb(83, 1, 1);
+}
+
+.main-card .btn-div .decline-btn:hover{
+  background-color: rgb(188, 2, 2);
+  box-shadow: -2px 3px 21px 4px rgba(246, 80, 80, 0.75);
+  transition: 0.2s;
+  font-size: 17px;
+}
+
+
+  
